@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style src="weather.css"></style>
+  </head>
+  <body>
+    <div id="weather-app">
+      <section class="city-container">
+        <form id="search-form">
+          <input
+            type="search"
+            id="city-input"
+            placeholder="Enter a City.."
+            required
+            class="search-bar"
+          />
+          <button type="submit" class="search-button">Search</button>
+        </form>
+      </section>
+
+      <h2 id="city-name">Johannesburg</h2>
+
+      <div class="current-conditions">
+        <p id="weather-details">
+          Saturday 14:30, moderate rain<br />
+          Humidity: <strong>85%</strong>, Wind: <strong>8km/h</strong>
+        </p>
+      </div>
+
+      <div class="current-temperature">
+        <span class="current-temperature-value" id="temperature">24</span>
+        <span class="current-temperature-unit">°C</span>
+      </div>
+
+      <div id="search-result"></div>
+
+      <div class="weekdays">
+        <ul>
+          <li>Sun⛅️ <br /><strong>14°C</strong>.18°C</li>
+          <li>Mon☀️ <br /><strong>20°C</strong>.28°C</li>
+          <li>Tues⛅️<br /><strong>14°C</strong> .18°C</li>
+          <li>Wed🌤 <br /><strong>12°C</strong>.24°C</li>
+          <li>Thurs🌧<br /><strong>6°C</strong>.17°C</li>
+          <li>Fri☀️<br /><strong>25°C</strong>.31°C</li>
+        </ul>
+      </div>
+      <p class="error-message" id="error-message"></p>
+    </div>
+
+    <footer>
+      <p>
+        This page is coded by Angela Mkulembe and is
+        <a href="https://github.com/" target="_blank">on GitHub</a> and
+        <a href="https://www.netlify.com/" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
+    <script src="weather.js"></script>
+  </body>
+</html>

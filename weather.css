@@ -1,0 +1,102 @@
+body {
+  background-color: #f9f7fe;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+footer p {
+  border-top: 1px solid white;
+  text-align: center;
+  color: #f0ecee;
+  padding-top: 25px;
+}
+
+a {
+  color: #885df1;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.search-bar {
+  width: 100%;
+  background-color: #f9f7fe;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 8px;
+  color: #8a5ff1;
+  margin-bottom: 15px;
+}
+
+.search-button {
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #8d60ed;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.current-conditions {
+  color: #555;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.current-temperature {
+  font-size: 48px;
+  text-align: center;
+}
+
+.weekdays {
+  margin-top: 20px;
+}
+
+.weekdays ul li {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#current-date-time {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#search-result {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #8a5ff1;
+}
